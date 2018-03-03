@@ -1,0 +1,23 @@
+test *, Begin, End :
+   The current forward list is 9 7 5 3
+test prev ++ :(i=++fl.begin()) *i = 7
+test post ++ :(j=fl.begin()++) *j = 9
+test pushFront: (push 11)
+   The current forward list is 11 9 7 5 3
+test popFront:
+   The current forward list is 9 7 5 3
+test insertAfter: (After i, insert 11)
+   The current forward list is 9 7 11 5 3
+test eraseAfter: (After i)
+   The current forward list is 9 7 5 3
+test Remove: (After i)
+   The current forward list is 9 7 3
+test removeIf: (5<removeIf<9)
+   The current forward list is 9 3
+test size  =  2
+test isEmpty, Clear :
+   The current forward list is
+
+
+Process returned 0 (0x0)   execution time : 0.251 s
+Press any key to continue.
