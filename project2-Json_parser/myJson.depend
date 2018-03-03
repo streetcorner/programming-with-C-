@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1492612492 source:f:\c++_hw\project2\2016229082+Ќх”кль+project#2\array.cpp
+	<iostream>
+	"Value.h"
+	"Array.h"
+
+1492609715 f:\c++_hw\project2\2016229082+Ќх”кль+project#2\value.h
+	<sstream>
+	<string>
+	"Array.h"
+	"Object.h"
+
+1492609497 f:\c++_hw\project2\2016229082+Ќх”кль+project#2\array.h
+	<vector>
+	<string>
+
+1492610378 f:\c++_hw\project2\2016229082+Ќх”кль+project#2\object.h
+	<map>
+	<string>
+
+1497998439 source:f:\c++_hw\project2\2016229082+Ќх”кль+project#2\main.cpp
+	<iostream>
+	"Value.h"
+	"Object.h"
+	"Array.h"
+
+1492612627 source:f:\c++_hw\project2\2016229082+Ќх”кль+project#2\object.cpp
+	"Value.h"
+	"Object.h"
+	<stdlib.h>
+
+1492612682 source:f:\c++_hw\project2\2016229082+Ќх”кль+project#2\value.cpp
+	<iostream>
+	<sstream>
+	<string>
+	"Value.h"
+

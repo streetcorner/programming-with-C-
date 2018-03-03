@@ -1,0 +1,22 @@
+Testing to_json:
+{"authors":["Bruce Eckel", "Chuck Allison"],"haveLunch":true,"pages":927,"price"
+:116.01,"pub_info":{"name1":"China","name2":"Machine","name3":"Press"},"title":"
+Thinking in C++"}
+
+Testing jsonParser(Wrote in Object class):
+{"authors":["Bruce Eckel", "Chuck Allison"],"haveLunch":true,"pages":927,"price"
+:116,"pub_info":{"name1":"China","name2":"Machine","name3":"Press"},"title":"Thi
+nking in C++"}
+
+The size of the array:
+2
+After cleared, the size of the array:
+0
+
+The size of the object:
+3
+After erase "name2", the size of the object:
+2
+
+Process returned 0 (0x0)   execution time : 0.267 s
+Press any key to continue.
